@@ -31,17 +31,38 @@ body{
 
         h2,h4,h5{
             margin: 0;
+            text-shadow: 0 0 3px rgb(49, 49, 49);
         }
 
         .date,.temp{
             position: relative;
             z-index: 1;
         }
+
+        .date{
+            h2{
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 0.7rem;
+                font-weight: 300;
+            }
+        }
+
+
+        .temp{
+            h2{
+                font-size: 2rem;
+                font-weight: 600;
+                margin: -10px 0;
+            }
+            h5{
+                font-size: 0.7rem;
+                font-weight: 400;
+            }
+        }
     }
 
-    .panel-end{
-
-    }
-
+    
     
 }
